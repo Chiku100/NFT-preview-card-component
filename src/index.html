@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="./input.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@300;600&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet" href="../build.css">
+  <title>Frontend Mentor | NFT preview card component</title>
+
+</head>
+
+<body class="min-h-screen font-body text-[18px] bg-[#0d192b] flex justify-center place-items-center">
+  <main class="md:w-3/12 sm:w-[100%] leading-6 text-left p-6 rounded-md bg-regal-blue gap-4 flex justify-between  flex-col">
+    <div class="relative">
+      <img class="rounded-md y hover:text-[#00fff7] hover:bg-gradient-to-br cursor-pointer"
+        src="../images/image-equilibrium.jpg" alt="image-equilibrium">
+      <div
+        class="zaa cursor-pointer absolute top-0 left-0 w-full h-full flex justify-center place-items-center opacity-0 bg-[#00fff7] hover:opacity-60">
+        <img src="../images/icon-view.svg" alt=""> </div>
+    </div>
+    <h1 class="text-white cursor-pointer hover:text-[#00fff7] font-extrabold text-2xl">Equilibrium #3429</h1>
+    <p class="text-[#8bacda]">Our Equilibrium collection promotes balance and calm.</p>
+    <div class="flex justify-between">
+      <p class="text-[#00fff7]"><span class="inline-block"><img src="../images/icon-ethereum.svg"
+            alt="icon-ethereum"></span> 0.041 ETH</p>
+      <p class="text-[#8bacda]"><span class="inline-block"><img src="../images/icon-clock.svg" alt="icon-clock"></span>
+        3 days left</p>
+    </div>
+    <hr class="border-[#2f415b] w-full">
+    <div class="flex justify-start gap-3 items-center">
+      <img class="float-left w-[15%]  border-2
+      border-white
+      rounded-full" src="../images/image-avatar.png" alt="image-avatar">
+      <p class="text-[#8bacda] text-[1rem]">Creation of <span
+          class="text-white cursor-pointer hover:text-[#00fff7]">Jules Wyvern</span></p>
+    </div>
+  </main>
+</body>
+
+</html>
